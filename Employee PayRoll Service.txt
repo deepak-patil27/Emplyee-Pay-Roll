@@ -1,1 +1,29 @@
 Welcome To Employee PayRoll Service.
+
+# UC-1
+
+mysql> CREATE DATABASE payroll_service;
+Query OK, 1 row affected (1.09 sec)
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| address_book_service |
+| information_schema   |
+| mysql                |
+| payroll_service      |
+| performance_schema   |
+| sys                  |
++----------------------+
+6 rows in set (0.24 sec)
+
+mysql> use payroll_service;
+Database changed
+mysql> SELECT DATABASE();
++-----------------+
+| DATABASE()      |
++-----------------+
+| payroll_service |
++-----------------+
+1 row in set (0.00 sec)
